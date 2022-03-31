@@ -81,10 +81,9 @@ unsigned int  `SDDesktopCap_GetWindowList`(unsigned int* punWindowIds, char(*pW
 
 
 ### 
-* 设置采集过程中需要缩放时，采用的缩放质量\速度档次，未调用本API时默认采用DESKTOP_SACLE_MEDIUM。Start之前或之后调用均可
-@param pDesktopCap: 模块指针
-@param: eScalePreset 质量\速度档次
-*/
+* 设置采集过程中需要缩放时，采用的缩放质量\速度档次，未调用本API时默认采用DESKTOP_SACLE_MEDIUM。Start之前或之后调用均可<br>
+@param pDesktopCap: 模块指针<br>
+@param: eScalePreset 质量\速度档次<br>
 void `SDDesktopCap_SetScalePreset`(void* pDesktopCap, DESKTOP_SCALE_PRESET eScalePreset);
 
 
