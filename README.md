@@ -1,7 +1,7 @@
-# camera capture sdk for windows with simple api
+# screen capture sdk for windows with simple api base on webrtc
 
 
-## SDCameraCapSdk简介
+## SDScreenCapSdk简介
 本库完成Windows平台下屏幕或窗口采集功能，其支持特性如下：
 
 * 1、当系统连接多屏幕时，可以选择指定屏幕进行采集。
@@ -13,7 +13,7 @@
 * 7、仅六个接口，调用简洁，性能强劲。
 * 8、C++开发动态库，支持C、C++、C#跨语言调用
 
-## SDCameraCapSdk  C API
+## SDScreenCapSdk  C API
 
 ### 
 * 环境初始化，系统只需调用一次<br>
